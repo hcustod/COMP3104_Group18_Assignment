@@ -1,8 +1,7 @@
 # COMP3104_Group1_Assignment
 ## Group Members
-- **Leader:** Pritesh Patel (1023756) - [GitHub](https://github.com/priteshpatel)
-- **Member 2:** Jane Doe (1023456) - [GitHub](https://github.com/janedoe)
-- **Member 3:** John Smith (1027890) - [GitHub](https://github.com/johnsmith)
+- **Leader:** Henrique Custodio (101497015) - [GitHub](https://github.com/hcustod)
+- **Member 1:** Fitsum Asgedom (101510623) - [GitHub](https://github.com/jofit2020)
 ## Project Description
 This repository hosts the group assignment for COMP3104 DevOps course, focusing on
 collaborative Git workflows, branching strategies, and CI/CD integration.
