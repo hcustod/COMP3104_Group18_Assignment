@@ -1,18 +1,20 @@
-# .travis.yml — minimal required CI pipeline
 language: minimal
 os: linux
 dist: jammy
 
+# Build all branches and PRs (matches assignment's "on push" spirit)
 branches:
   only:
     - /.*/
 
-script:
-  - echo "🎉 Travis CI build triggered."
-  - echo "🔎 Branch: $TRAVIS_BRANCH"
-  - echo "📦 Repository: $TRAVIS_REPO_SLUG"
-  - echo "🖥️ Job ID: $TRAVIS_JOB_ID"
-  - echo "📂 Listing files..."
-  - ls -la
-  - echo "🍏 Build finished successfully."
+script: bash -lc '
+  set -Eeuo pipefail
+  echo "Travis CI build triggered."
+  echo "Branch: ${TRAVIS_BRANCH}"
+  echo "Repository: ${TRAVIS_REPO_SLUG}"
+  echo "Job: ${TRAVIS_JOB_NUMBER}"
+  echo "Listing files:"
+  ls -la
+  echo "Build finished."
+'
 
