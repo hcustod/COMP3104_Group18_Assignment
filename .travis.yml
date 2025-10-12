@@ -6,7 +6,7 @@ branches:
   only:
     - /.*/
 
-script: bash -lc '
+script: 
   set -Eeuo pipefail
   echo "Travis CI build triggered."
   echo "Branch: ${TRAVIS_BRANCH}"
