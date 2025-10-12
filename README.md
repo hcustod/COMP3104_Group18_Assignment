@@ -1,6 +1,6 @@
 # COMP3104_Group1_Assignment
 ## Group Members
-- **Leader:** Henrique (1023456) - [GitHub](https://github.com/janedoe)
+- **Leader:** Henrique Custodio (1023456) - [GitHub](https://github.com/janedoe)
 - **Member 1:** Fitsum Asgedom (101510623) - [GitHub](https://github.com/jofit2020)
 ## Project Description
 This repository hosts the group assignment for COMP3104 DevOps course, focusing on
