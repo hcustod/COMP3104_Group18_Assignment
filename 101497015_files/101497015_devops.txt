@@ -1,0 +1,4 @@
+COMP 3104 DevOps
+
+The Developer Operations course is an introduction to Developer operation practices, such as CI/CD, Containerization, and Code as Infrastructure. 
+It also teaches further about SLDC, expanding on topics introduced in earlier courses with more detail. 

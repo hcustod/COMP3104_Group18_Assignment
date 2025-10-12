@@ -1,0 +1,21 @@
+language: minimal
+os: linux
+dist: jammy
+
+# Build all branches and PRs (matches "on: [push]" spirit across branches)
+branches:
+  only:
+    - /.*/
+
+script:
+  - set -e
+  - echo "The job was automatically triggered by a ${TRAVIS_EVENT_TYPE} event."
+  - echo "This job is running on a ${TRAVIS_OS_NAME} image."
+  - echo "Branch: ${TRAVIS_BRANCH}   Repository: ${TRAVIS_REPO_SLUG}"
+  # In Travis, checkout is done for you; TRAVIS_BUILD_DIR is the workspace
+  - echo "The repository has been cloned to ${TRAVIS_BUILD_DIR}."
+  - echo "The job is now ready to test your code in the runner."
+  - echo "Listing files in the repository:"
+  - ls -la "${TRAVIS_BUILD_DIR}"
+  - echo "Script completed successfully."
+
