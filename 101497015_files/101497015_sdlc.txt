@@ -1,0 +1,4 @@
+Importance of DevOps in the Software Development Cycle
+
+In the Software development life cycle (SDLC), devops is seen as essential as it allows smoother development by filling in the gap between development and operation teams.
+One of the core respnsibilities of DevOps is to ensure reliable and continuous deployments of developments, through IAC (Infrastructure as Code) and CI/CD practices.  
