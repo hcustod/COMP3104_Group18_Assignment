@@ -1,15 +1,15 @@
+cat > .travis.yml <<'YAML'
 language: minimal
 os: linux
 dist: jammy
 
-script: bash -lc '
-  set -Eeuo pipefail
-  echo "Travis CI build triggered."
-  echo "Branch: ${TRAVIS_BRANCH}"
-  echo "Repository: ${TRAVIS_REPO_SLUG}"
-  echo "Job: ${TRAVIS_JOB_NUMBER}"
-  echo "Listing files:"
-  ls -la
-  echo "Build finished."
-'
-
+script:
+  - set -Eeuo pipefail
+  - echo "Travis CI build triggered."
+  - echo "Branch: ${TRAVIS_BRANCH}"
+  - echo "Repository: ${TRAVIS_REPO_SLUG}"
+  - echo "Job: ${TRAVIS_JOB_NUMBER}"
+  - echo "Listing files:"
+  - ls -la
+  - echo "Build finished."
+YAML
