@@ -8,3 +8,4 @@
  more reliably. By integrating DevOps principles, teams can achieve higher
  efficiency, reduce errors, and improve overall product quality.
 
+# Thanks
