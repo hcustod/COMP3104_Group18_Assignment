@@ -2,7 +2,6 @@ language: minimal
 os: linux
 dist: jammy
 
-# Build all branches and PRs (matches assignment's "on push" spirit)
 branches:
   only:
     - /.*/
