@@ -1,0 +1,12 @@
+
+# COMP3104 DevOps Course
+
+This course introduces students to modern software 
+development practices that combine development and operations. 
+It covers topics such as version control with Git and GitHub, 
+Continuous Integration (CI), Continuous Deployment (CD),
+and automation workflows using tools like GitHub Actions and Travis CI. 
+Through hands-on projects, students learn to collaborate effectively
+and maintain high-quality, reliable code in shared repositories.
+
+# Than
