@@ -2,10 +2,6 @@ language: minimal
 os: linux
 dist: jammy
 
-branches:
-  only:
-    - /.*/
-
 script: bash -lc '
   set -Eeuo pipefail
   echo "Travis CI build triggered."
