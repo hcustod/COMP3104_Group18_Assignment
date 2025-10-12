@@ -7,3 +7,5 @@ GBC emphasizes hands-on learning through labs, co-ops,
 and industry partnerships to prepare students for real-world challenges. 
 The college has a diverse and inclusive environment that supports
 students from around the world in achieving academic and professional success.
+
+# Thanks
