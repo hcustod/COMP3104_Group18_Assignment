@@ -8,3 +8,5 @@ Continuous Integration (CI), Continuous Deployment (CD),
 and automation workflows using tools like GitHub Actions and Travis CI. 
 Through hands-on projects, students learn to collaborate effectively
 and maintain high-quality, reliable code in shared repositories.
+
+# Than
