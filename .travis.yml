@@ -2,7 +2,12 @@ language: minimal
 os: linux
 dist: jammy
 
+branches:
+  only:
+    - /.*/
+
 script:
+  script:
   - echo "Travis CI build triggered."
   - echo "Branch=${TRAVIS_BRANCH}"
   - echo "Repository=${TRAVIS_REPO_SLUG}"
@@ -10,3 +15,5 @@ script:
   - echo "Listing files"
   - ls -la
   - echo "Build finished."
+'
+
