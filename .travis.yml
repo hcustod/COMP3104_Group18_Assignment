@@ -1,19 +1,10 @@
-language: minimal
-os: linux
 dist: jammy
 
-branches:
-  only:
-    - /.*/
-
-script: 
-  set -Eeuo pipefail
-  echo "Travis CI build triggered."
-  echo "Branch: ${TRAVIS_BRANCH}"
-  echo "Repository: ${TRAVIS_REPO_SLUG}"
-  echo "Job: ${TRAVIS_JOB_NUMBER}"
-  echo "Listing files:"
-  ls -la
-  echo "Build finished."
-'
-
+script:
+  - echo "Travis CI build triggered."
+  - echo "Branch=${TRAVIS_BRANCH}"
+  - echo "Repository=${TRAVIS_REPO_SLUG}"
+  - echo "Job=${TRAVIS_JOB_NUMBER}"
+  - echo "Listing files"
+  - ls -la
+  - echo "Build finished."
